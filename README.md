@@ -1,4 +1,4 @@
-<img src="./banner.svg" alt="Hadi Alaeddine – Apprentice Application Developer EFZ, Luzern" width="100%">
+<img src="./banner-animated.svg" alt="Hadi Alaeddine – Apprentice Application Developer EFZ, Luzern" width="100%">
 
 I build web applications end to end — from the database to the interface.
 Started my apprenticeship in August 2023, finishing with the EFZ in 2027.
