@@ -32,7 +32,3 @@ I speak **German · English · Arabic**.
 | **Schnitzeljagd App** | Mobile scavenger hunt game using GPS, QR codes and device sensors. | Ionic · Angular · Capacitor |
 
 <sub>Most of these are private client or company projects — happy to show them in person.</sub>
-
-### GitHub
-
-<img height="150" src="https://github-readme-stats.vercel.app/api?username=Hadialadin2006&show_icons=true&hide_border=true&bg_color=0F3640&title_color=8FD3E8&icon_color=8FD3E8&text_color=D0D7DE&count_private=true" alt="GitHub stats"> <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hadialadin2006&layout=compact&hide_border=true&bg_color=0F3640&title_color=8FD3E8&text_color=D0D7DE" alt="Top languages">

@@ -1,15 +1,67 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220" role="img" aria-label="Hadi Alaeddine – Apprentice Application Developer EFZ, Luzern, Switzerland">
-  <rect width="900" height="220" rx="6" fill="#0F3640"/>
-  <g fill="#174A56">
-    <rect x="500" y="156" width="38" height="64"/><rect x="544" y="120" width="26" height="100"/><rect x="612" y="144" width="46" height="76"/><rect x="694" y="114" width="34" height="106"/><rect x="734" y="160" width="52" height="60"/><rect x="826" y="136" width="40" height="84"/><rect x="870" y="170" width="30" height="50"/>
+  <style>
+    .rise { opacity: 0; animation: rise 0.9s ease-out forwards; }
+    .d1 { animation-delay: 0.1s; } .d2 { animation-delay: 0.35s; } .d3 { animation-delay: 0.6s; }
+    @keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+
+    .type { animation: type 2.2s steps(48, end) 1s forwards; }
+    @keyframes type { from { width: 0; } to { width: 420px; } }
+    .cursor { animation: blink 1s step-end infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+
+    .win { opacity: 0.15; animation: glow 6s ease-in-out infinite; }
+    @keyframes glow { 0%, 100% { opacity: 0.15; } 30%, 70% { opacity: 1; } }
+
+    .wave { animation: drift 7s linear infinite; }
+    .wave2 { animation: drift 11s linear infinite reverse; }
+    @keyframes drift { from { transform: translateX(0); } to { transform: translateX(-120px); } }
+  </style>
+
+  <clipPath id="card"><rect width="900" height="220" rx="6"/></clipPath>
+  <clipPath id="typed"><rect class="type" x="40" y="172" width="0" height="26"/></clipPath>
+
+  <g clip-path="url(#card)">
+    <rect width="900" height="220" fill="#0F3640"/>
+
+    <!-- skyline -->
+    <g fill="#174A56">
+      <rect x="500" y="150" width="38" height="56"/><rect x="544" y="114" width="26" height="92"/><rect x="612" y="138" width="46" height="68"/><rect x="694" y="108" width="34" height="98"/><rect x="734" y="154" width="52" height="52"/><rect x="826" y="130" width="40" height="76"/><rect x="870" y="164" width="30" height="42"/>
+    </g>
+    <g fill="#1B5563">
+      <rect x="576" y="84" width="30" height="122"/><rect x="664" y="64" width="24" height="142"/><rect x="792" y="94" width="28" height="112"/>
+    </g>
+
+    <!-- windows switching on and off -->
+    <g fill="#8FD3E8">
+      <rect class="win" x="584" y="98" width="4" height="4" style="animation-delay:0s"/>
+      <rect class="win" x="594" y="118" width="4" height="4" style="animation-delay:2.1s"/>
+      <rect class="win" x="584" y="150" width="4" height="4" style="animation-delay:4.3s"/>
+      <rect class="win" x="672" y="84" width="4" height="4" style="animation-delay:1.2s"/>
+      <rect class="win" x="678" y="134" width="4" height="4" style="animation-delay:3.4s"/>
+      <rect class="win" x="672" y="170" width="4" height="4" style="animation-delay:5.1s"/>
+      <rect class="win" x="800" y="112" width="4" height="4" style="animation-delay:0.8s"/>
+      <rect class="win" x="808" y="150" width="4" height="4" style="animation-delay:2.9s"/>
+      <rect class="win" x="552" y="132" width="4" height="4" style="animation-delay:4.8s"/>
+      <rect class="win" x="704" y="126" width="4" height="4" style="animation-delay:1.7s"/>
+      <rect class="win" x="836" y="146" width="4" height="4" style="animation-delay:3.8s"/>
+    </g>
+
+    <!-- lake -->
+    <rect x="0" y="206" width="900" height="14" fill="#0B2D35"/>
+    <g class="wave" stroke="#8FD3E8" stroke-opacity="0.35" stroke-width="1.5" stroke-linecap="round">
+      <line x1="500" y1="211" x2="540" y2="211"/><line x1="600" y1="211" x2="625" y2="211"/><line x1="700" y1="211" x2="750" y2="211"/><line x1="820" y1="211" x2="845" y2="211"/><line x1="920" y1="211" x2="960" y2="211"/><line x1="1020" y1="211" x2="1045" y2="211"/>
+    </g>
+    <g class="wave2" stroke="#8FD3E8" stroke-opacity="0.2" stroke-width="1.5" stroke-linecap="round">
+      <line x1="530" y1="216" x2="560" y2="216"/><line x1="640" y1="216" x2="690" y2="216"/><line x1="760" y1="216" x2="790" y2="216"/><line x1="860" y1="216" x2="910" y2="216"/><line x1="980" y1="216" x2="1010" y2="216"/>
+    </g>
+
+    <!-- text -->
+    <text class="rise d1" x="40" y="96" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13" fill="#8FD3E8">Luzern, Switzerland</text>
+    <text class="rise d2" x="38" y="148" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="50" font-weight="800" letter-spacing="-1" fill="#FFFFFF">Hadi Alaeddine</text>
+    <g clip-path="url(#typed)">
+      <text x="40" y="190" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14" fill="#D0D7DE">Apprentice Application Developer EFZ — final year</text>
+    </g>
+    <rect class="cursor" x="40" y="178" width="8" height="16" fill="#8FD3E8" style="animation: blink 1s step-end infinite, move 2.2s steps(48, end) 1s forwards"/>
   </g>
-  <g fill="#1B5563">
-    <rect x="576" y="90" width="30" height="130"/><rect x="664" y="70" width="24" height="150"/><rect x="792" y="100" width="28" height="120"/>
-  </g>
-  <g fill="#8FD3E8">
-    <rect x="584" y="104" width="4" height="4"/><rect x="594" y="124" width="4" height="4"/><rect x="672" y="90" width="4" height="4"/><rect x="678" y="140" width="4" height="4"/><rect x="800" y="118" width="4" height="4"/><rect x="808" y="156" width="4" height="4"/>
-  </g>
-  <text x="40" y="112" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13" fill="#8FD3E8">Luzern, Switzerland</text>
-  <text x="38" y="160" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="50" font-weight="800" letter-spacing="-1" fill="#FFFFFF">Hadi Alaeddine</text>
-  <text x="40" y="190" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#D0D7DE">Apprentice Application Developer EFZ — final year</text>
+  <style>@keyframes move { from { transform: translateX(0); } to { transform: translateX(404px); } }</style>
 </svg>
