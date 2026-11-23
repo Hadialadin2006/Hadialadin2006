@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220" role="img" aria-label="Hadi Alaeddine – Apprentice Application Developer EFZ, Luzern, Switzerland">
+  <rect width="900" height="220" rx="6" fill="#0F3640"/>
+  <g fill="#174A56">
+    <rect x="500" y="156" width="38" height="64"/><rect x="544" y="120" width="26" height="100"/><rect x="612" y="144" width="46" height="76"/><rect x="694" y="114" width="34" height="106"/><rect x="734" y="160" width="52" height="60"/><rect x="826" y="136" width="40" height="84"/><rect x="870" y="170" width="30" height="50"/>
+  </g>
+  <g fill="#1B5563">
+    <rect x="576" y="90" width="30" height="130"/><rect x="664" y="70" width="24" height="150"/><rect x="792" y="100" width="28" height="120"/>
+  </g>
+  <g fill="#8FD3E8">
+    <rect x="584" y="104" width="4" height="4"/><rect x="594" y="124" width="4" height="4"/><rect x="672" y="90" width="4" height="4"/><rect x="678" y="140" width="4" height="4"/><rect x="800" y="118" width="4" height="4"/><rect x="808" y="156" width="4" height="4"/>
+  </g>
+  <text x="40" y="112" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13" fill="#8FD3E8">Luzern, Switzerland</text>
+  <text x="38" y="160" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="50" font-weight="800" letter-spacing="-1" fill="#FFFFFF">Hadi Alaeddine</text>
+  <text x="40" y="190" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#D0D7DE">Apprentice Application Developer EFZ — final year</text>
+</svg>
