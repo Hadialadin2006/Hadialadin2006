@@ -4,7 +4,7 @@ I build web applications end to end — from the database to the interface.
 Started my apprenticeship in August 2023, finishing with the EFZ in 2027.
 
 <p>
-  <a href="https://www.linkedin.com/in/hadi-alaeddine-510903326"><img src="https://img.shields.io/badge/LinkedIn-0F3640?style=for-the-badge&logo=linkedin&logoColor=8FD3E8" alt="LinkedIn" height="34"></a>
+  <a href="https://www.linkedin.com/in/hadi-alaeddine-510903326"><img src="https://img.shields.io/badge/LinkedIn-0F3640?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHJlY3QgeD0iMSIgeT0iMSIgd2lkdGg9IjIyIiBoZWlnaHQ9IjIyIiByeD0iNCIgZmlsbD0iIzhGRDNFOCIvPjxyZWN0IHg9IjUiIHk9IjkuNSIgd2lkdGg9IjMiIGhlaWdodD0iOSIgZmlsbD0iIzBGMzY0MCIvPjxjaXJjbGUgY3g9IjYuNSIgY3k9IjYuMyIgcj0iMS44IiBmaWxsPSIjMEYzNjQwIi8%2BPHBhdGggZD0iTTEwLjUgOS41aDIuOXYxLjNjLjUtLjkgMS42LTEuNSAzLTEuNSAyLjQgMCAzLjEgMS41IDMuMSAzLjl2NS4zaC0zdi00LjdjMC0xLjEtLjMtMS45LTEuNC0xLjktMS4yIDAtMS42LjktMS42IDJ2NC42aC0zeiIgZmlsbD0iIzBGMzY0MCIvPjwvc3ZnPg%3D%3D" alt="LinkedIn" height="34"></a>
   <a href="https://github.com/Hadialadin2006?tab=repositories"><img src="https://img.shields.io/badge/Repositories-0F3640?style=for-the-badge&logo=github&logoColor=8FD3E8" alt="Repositories" height="34"></a>
   <a href="mailto:xxhadi06@gmail.com"><img src="https://img.shields.io/badge/xxhadi06@gmail.com-0F3640?style=for-the-badge&logo=gmail&logoColor=8FD3E8" alt="Email" height="34"></a>
 </p>
